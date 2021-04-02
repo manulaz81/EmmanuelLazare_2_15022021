@@ -1,0 +1,1303 @@
+/* PARAMETRES GENERAUX */       
+@font-face {
+font-family: 'https://fonts.googleapis.com/css2?family=Raleway:wght@400;600;800&display=swap';
+src: url('https://fonts.googleapis.com/css2?family=Raleway:wght@400;600;800&display=swap');
+                                                } 
+body
+{
+        width:100%;
+        border: solid 1px red;
+}
+#bloc_page
+{
+       width: 80%; 
+       max-width: 1500px;
+       margin: auto;
+      font-family:'raleway','Times New Roman',serif, Helvetica, sans-serif;   
+      border: solid 1px red;
+}
+
+/* EN TETE */
+
+header
+{
+        width: 100%;
+        max-width: 1500px;
+        display: flex;
+        align-items: center;
+        font-family:'raleway','Times New Roman',serif, Helvetica, sans-serif;
+        font-size: small;     
+        font-weight: 600;   
+}
+section h1
+{
+        font-family:'raleway','Times New Roman',serif, Helvetica, sans-serif;
+        font-weight: 800;
+        font-size:large;
+}
+
+section h5
+{
+        font-family: 'raleway', 'Times New Roman',serif, Helvetica, sans-serif;
+        font-weight: 150;
+        margin:0 0 3px 0 ;
+}
+
+#logo
+{
+        width: 30%;
+        min-width: 90px;
+        margin: auto;  
+}
+
+.navigation
+{
+        width: 70%; 
+        font-family:'raleway','Times New Roman',serif, Helvetica, sans-serif; 
+        display: flex;
+        justify-content: flex-end;
+        align-items: center;
+        color: black;
+}
+
+.inscription
+{
+        width: 100%;
+}
+
+.inscript
+{
+        font-weight: 700;
+        color:#0065FC;
+      vertical-align: middle;
+}
+header ul
+{
+        width : 100%;
+        display: flex;
+        justify-content: flex-end;
+        text-decoration: none;
+        list-style: none;   
+}
+
+header a 
+{
+        width: 10%;   
+        text-decoration: none;
+        margin: 15px;       
+        padding-top: 15px 
+}
+header nav a
+{
+        font-family:'raleway';
+        font-weight: 500;
+        color: black;
+        border:solid 1px red;
+}
+header li
+{
+        display: block;
+        text-align: center;
+}
+header a:hover
+{
+        color:#0065FC;
+        border-top: #0065FC solid 1px;
+}
+
+/* section recherche */
+section
+{
+        width: 100%;
+     margin: 1% 0 1% 0;
+}
+
+.titreimportant
+{
+        font-family:'raleway','Times New Roman',serif, Helvetica, sans-serif;     
+        font-size: 0.9em;  
+        font-weight: 800;
+        padding-left: 15px;
+}
+.afficher
+{
+        margin:0px;
+        padding-left:15px;
+}
+
+.section div h4
+{
+        width: 100%;
+}
+
+.trouver
+{
+        width: 100%;
+}
+
+.recherchevilles
+{
+        width: 300px;
+        max-width: 380px;
+        height: 40px;
+        margin: 2px 0 2px 0 ;
+        display:flex;
+        justify-content: flex-start;
+        align-items: center; 
+}
+.iconeville
+{
+        width:10%;
+        min-width: 25px;
+        max-width: 25px;
+        height: 30px;
+        padding: 1px 1px 1px 1px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        background-color: #F2F2F2;
+        font-size: 0.9em;
+        border-top-left-radius: 10px;
+        border-bottom-left-radius: 10px;
+}
+
+.ville
+{
+        width: 60%;
+        height: 30px;
+        padding-left: 30px;
+        padding:0;
+        border:1px solid #F2F2F2;       
+        font-family: 'raleway';
+        font-size: 0.9em; 
+        font-weight: 600;
+}
+.search
+{
+        width: 40%;
+        min-width: 100px;
+        max-width: 100px;
+        height:32px;
+        color: white;
+        background: #0065FC;
+        margin: 0;
+        border-top-right-radius: 20px;
+        border-bottom-right-radius: 20px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        font-family: 'raleway';
+        font-size: 0.9em;
+}
+.searchmobile
+{
+        display:none;
+}
+
+
+h3
+{
+        font-family:'raleway','Times New Roman',serif, Helvetica, sans-serif;     
+        font-size: 0.8em;  
+        padding: 3px;
+}
+
+h4
+{
+        font-family:'raleway','Times New Roman',serif, Helvetica, sans-serif;     
+        font-size: 0.6em;  
+        font-weight: 200;
+        padding: 3px;
+        margin: 0;
+}
+
+/*div filtres*/
+.filters   
+{
+         width: 60%;
+         min-width: 200px;
+         max-width: 1500px;
+         display: flex;
+         justify-content:flex-start;
+         align-items: center;
+         padding:0%;
+         margin-bottom: 20px;
+         font-weight:700;
+         font-size: 0.9em;
+         font-family:'raleway' ;
+ }
+
+.s1
+{   
+      list-style: none;
+      margin-right:15px;
+}
+
+.boutonfiltre
+{
+        border-radius: 20px;
+        margin:0 15px 0 0;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        border: 1px solid #DEEBFF ; 
+        padding: 0 10px 0 0;
+}
+
+.boutonfiltre:hover
+{
+        background-color: rgb(4, 4, 82);
+        color: white;
+}
+
+.iconefilter
+{
+        color: #0065FC;
+        border-radius: 20px;
+        text-align: center;
+        margin-right: 6px;
+        padding: 8px;
+        background: #DEEBFF;
+ }
+ 
+.villes
+{
+        padding: 1%;     
+}
+
+.information 
+{
+        width: 2%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding: 2px;
+        margin-right:10px;
+        color:#0065FC;
+}
+body div section p
+{
+        font-family:'raleway','Times New Roman',serif, Helvetica, sans-serif;     
+        font-size: 0.8em;  
+        font-weight: 500;
+        margin: 0 0 15px 0;
+        padding:0%;
+        
+        display: flex;
+        align-items: center;
+}
+/* hebergement à Marseille */
+.sectionhebergement
+{    
+        width:100%; 
+        max-width:1500px ;      
+        height: 420px;  
+        display: flex;
+        justify-content: center;
+        margin-bottom: 50px;
+        border: red  solid 1px;
+}
+
+.blocks
+{
+        width: 75%;  
+        max-width: 1000px;
+        height:auto;
+        min-height: auto;
+        border-radius: 2%;   
+        background-color: #F2F2F2;  
+        padding: 0;
+        margin-right: 5%;
+        border: red  solid 1px;
+}
+.bloc2
+{
+        width:100%;
+       height: 320px;
+       padding: 15px;
+        display: flex;
+        flex-wrap: wrap;  
+          border: red  solid 1px;
+}
+
+.fig
+{
+        width: 100%;
+        min-width: 150px;
+        height: 80px;
+        border-radius: 10px 10px 0 0;
+        text-align: center;             
+        object-fit: cover;
+}
+
+section div p
+{
+        margin: -1% 0 -1% 1%;
+        padding-bottom: 4%;       
+}
+
+.lieu
+{
+        width: 30%;
+        height: 144px;
+        padding: 3px 3px 3px 3px;
+        background-color:  white;
+        border-radius: 15px;
+        margin: 0% 1% 1% 0%;
+}
+
+.lieu:hover
+{
+        width: 30%;
+        color:white;
+        background-color: rgb(4, 4, 82);
+}
+
+.etoilebleue
+{
+        color: #0065FC;
+        font-size:0.6em;
+}
+
+.etoilegrise
+{
+        color: #F2F2F2;
+        font-size: 0.6em;        
+}
+.titrehebergement
+{
+       font-weight: 700; 
+       margin: 0;
+}
+
+/* aside*/ 
+.lespluspop
+{
+        background: #F2F2F2;
+        width: 30%;      
+        border-radius: 2%;
+        padding: 0 5px 0 5px;  
+        border: 1px solid red;
+}
+
+.titrelesplus
+{
+        width: 100%;
+        margin-bottom: 15px;
+        display: flex;
+        justify-content: flex-start;
+        align-items: center;
+        border: 1px solid red;
+
+}
+.hebergement div h3
+{
+        display: flex;
+        flex-wrap: wrap;
+}
+.titrepop
+{
+        min-width:110px;
+        max-width:120px;
+}
+
+.titleplus
+{
+        width: 80%;
+}
+
+.photoplus
+{
+        width: 88%;
+        height: 90px;
+       padding: 3px 3px 3px 3px;
+        border-radius: 5px ;
+        display: flex; 
+        background-color: white;        
+        margin :auto;
+        margin-bottom: 5%;
+        border: 1px solid red;
+}
+
+.photoplus:hover
+{
+        width:88%;
+        color:white;
+        background-color:  rgb(4, 4, 82);;
+}
+.imagepop
+{
+        width: 40%;  
+        height: 90px;     
+}
+.lesplus
+{
+        width: 100%;
+        min-width: 90px;
+        height: 100%;
+        border-radius: 10px 0% 0% 10px ;
+        object-fit: cover;
+}
+.chart
+{
+        width: 10%;     
+        text-align: center;
+}
+
+.textpop
+{
+        width: 60%;
+        min-width: 200px;
+        padding: 5px 0 0 5px;
+}
+aside h4
+{
+        margin-bottom: 15px;
+}
+
+ /*section activités à marseille*/
+ .essaiactivite
+{
+         width: 100%;  
+         height: 320px;
+         padding: 0%;
+         border: 1px solid red;
+}
+ 
+ .ensemblephoto
+{
+         width:100%;
+         display: flex;
+         justify-content: space-between;
+         border: 1px solid red;
+}
+ 
+ .blocintermediaire1
+{
+        width: 100%;
+         display: flex;
+         flex-direction: column;
+         margin:0 0 20px 0;
+}
+ 
+ .blocintermediaire2
+{
+        width:100%;
+        height: 100%;
+        margin:0;       
+}
+.blocintermediaire4
+{
+       width:100%;
+       height: 100%;
+       margin:0px ;
+      
+}
+.blocintermediaire5
+{
+       width:100%;
+       height: 100%;
+       margin:0 0 39px 0 ;     
+}
+.blocintermediaire6
+{
+        width: 100%;
+        height:100%;
+         display: flex;
+         flex-direction: column;
+         margin:0 0 5px 0;
+}
+ .bloc1b
+{
+        width: 20%;
+        height: 100%;
+        border-radius: 20px;
+        margin:0 20px 0 0;   
+        padding: 0 0 0 0;  
+        border: 1px solid red;
+}
+ 
+ .bloc2b
+{
+         width: 20%;
+         height: 100%;
+         border-radius: 20px;
+         margin:0 0 0 0;
+         display: flex;
+         flex-wrap: wrap;
+         border: 1px solid red;
+}
+  
+ .bloc3b
+{
+        width: 20%;
+        height: 100%;
+        border-radius: 20px;
+        margin:0 15px 0 15px;
+        border: 1px solid red;
+}
+.bloc4b
+{        width: 20%;
+        height: 100%;
+        border: #DEEBFF 1px solid;
+        border-radius: 20px;
+        display: flex;
+        flex-wrap: wrap;
+}
+ .vieuxport
+{
+         width: 100%;  
+         height: 230px;
+         border-radius: 20px 20px 0 0; 
+         object-fit: cover; 
+         margin:0 0 0 0;
+         padding: 0%;
+}
+.titrefigureactivité
+{
+        height: 15px;
+          padding:5px 0 5px 5px;
+          background-color:white;
+          font-family:'raleway','Times New Roman',serif, Helvetica, sans-serif;     
+          font-size: 0.6em;  
+          font-weight: 700;
+          padding: 10px 0px 7px 5px;
+          margin: 0%;
+          border-radius: 0 0 10px 10px;
+          margin-top: -5px;
+          border: #DEEBFF 1px solid;
+
+}
+  
+.iledufrioul
+{
+          width: 100%;
+          height: 59px;   
+         border-radius: 10px 10px 0 0;
+          object-fit: cover;
+          margin:0%;    
+          padding: 0%;     
+  }
+
+.photopaysage
+{
+                 width:100%;
+                 height: 123px;
+                 border-radius: 10px 10px 0 0;
+                 object-fit: cover;    
+}
+.photopaysage2
+{
+                 width:100%;
+                 height: 84px;
+                 border-radius: 10px 10px 0 0;
+                 object-fit: cover;         
+}
+.photopaysage3
+{
+        width:100%;
+        height: 75px;
+        border-radius: 10px 10px 0 0;
+        object-fit: cover;      
+}
+.photoparc
+{
+        width:100%;
+         height: 130px;
+        border-radius: 10px 10px 0 0;
+        margin:10% 0 0 0;
+        object-fit: cover; 
+}       
+.photoparc1
+{
+        width:100%;
+         height: 130px;
+        border-radius: 10px 10px 0 0;
+        margin:0px 0 10px 0;
+        object-fit: cover; 
+}       
+
+/* footer*/
+footer
+{
+        width:100%;        
+        margin-top: 50px;
+        display: flex;
+        justify-content: flex-start;
+        margin: auto;
+        background: #F2F2F2;
+}
+
+.apropos
+{
+        width: 33%;
+        margin-left: 20px;
+}
+
+.noshebergements
+{
+        width: 33%;
+}
+
+.assistance
+{
+        width: 33%;
+}
+
+footer div a
+{
+        width:230px ;
+        display: flex;
+        flex-direction: column;
+        text-decoration:none;
+        color: black;
+        font-family:'raleway','Times New Roman',serif, Helvetica, sans-serif;
+        font-size: small;
+        font-weight: normal;
+        margin-bottom: 10px;
+}
+
+footer h4
+{
+        margin: 10px 0 15px 0;
+        padding:0;
+        font-family:'raleway','Times New Roman',serif, Helvetica, sans-serif;
+        font-weight: 700;
+        font-size: 0.8em;
+}
+
+/*media queries*/
+
+
+@media screen and (min-width: 769px) and (max-width: 1023px)
+
+{ 
+body 
+{
+        width:100%;
+}
+
+#bloc_page
+
+{
+        width: 100%;
+        margin: auto;
+ 
+} 
+
+/*header*/
+header
+{
+        width:100%;
+        margin: auto;
+        display: flex;
+        flex-wrap: wrap;
+}
+
+.navigation
+{
+        width: 100%;  
+        order: 3;  
+}
+
+  header ul 
+{
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        padding: 0%;
+}
+
+ header li
+{
+         width:50%;
+         color:black;
+}
+        
+.log
+{
+        width: 30%;
+}
+
+.inscript
+{
+         width: 70%;
+         order: 2;
+         text-align: right;
+         font-family:'raleway','Times New Roman',serif, Helvetica, sans-serif;
+         font-size: x-large;
+         font-weight:700;
+         color:#0065FC;
+}
+.inscription
+{
+        color:#0065FC;
+}
+     
+
+header a:hover
+{
+        color:#0065FC;
+         border-top:none;           
+}
+.nav
+{
+       padding-bottom: 15px; 
+       border-bottom: 2px solid #F2F2F2;
+       font-family:'raleway','Times New Roman',serif, Helvetica, sans-serif;
+       color: black;
+       font-size: medium;
+}
+
+.nav:hover
+{
+        border-bottom: #0065FC solid 2px;
+}
+.trouver
+{
+        width: 100%;
+        padding: 5px;
+        margin: 0;
+        text-align: center;
+}
+section h1
+{
+        width:100%;
+        font-family:'raleway','Times New Roman',serif, Helvetica, sans-serif;
+        text-align: left;
+       color: black;
+       font-size: 1.5rem;   
+}
+section p
+{
+        font-family:'raleway','Times New Roman',serif, Helvetica, sans-serif;
+        height: auto;
+        text-align: left;
+       color: black;
+       font-size: 0.9rem;   
+}
+
+/*recherche*/
+
+.recherche
+{
+        width: 100%;
+        margin: 0;
+}
+
+ .filters
+{
+        width:90%;
+         display: flex; 
+         flex-wrap: wrap;
+         margin-bottom: 20px;
+}
+.boutonfiltre
+{
+        margin: 0 40px 10px 0;
+        font-size: 1.1em;
+        font-weight: 700;
+}
+.s1
+{
+        margin: 0 40px 10px 0;
+}
+
+
+
+/*aside*/
+
+.lespluspop 
+{
+         width: 100%;
+         min-width: 200px;
+         height: 550px;
+         margin: auto;
+         padding:0;
+         order:1;
+}
+.imagepop
+{
+         height:130px;
+}
+.titrepop
+{
+        min-width:150px;
+      
+}
+.photoplus
+{
+         width:90%;
+         max-width: 806px;
+         min-width: 200px;
+         height: 130px;
+         margin: auto;
+         margin-bottom: 20px;
+         padding:5px 0 5px 5px; 
+}
+.photoplus:hover
+{
+         width:92%;
+         color:white;
+         background-color:  rgb(4, 4, 82);
+}
+.titrepop
+{
+        width: 100%;
+        max-width: 400px;
+}
+
+.textpop
+{
+        width: 50%;
+        min-width: 200px;
+        padding: 5px 0 0 5px;
+        margin-left: 20px;
+}
+.sectionhebergement  
+
+{        
+        width: 85%;
+        height:auto;
+        padding:0;
+        margin: auto;
+        display:flex;   
+        flex-direction: column;
+        margin-bottom: 10px;
+}
+.blocks
+{
+        width:100%;
+        height:430px;
+        padding:0;
+        margin: auto;
+        order: 2;
+        padding-bottom: 10px;
+}
+.bloc2
+{
+        width: 100%;
+        height:370px;
+        padding:0;
+        display: flex;
+        justify-content: space-between;
+}
+
+.titrelesplus
+{
+        width:90%;
+        margin: auto;
+}
+.fig
+{
+        width: 100%;
+        height:100px;
+}
+
+.lieu
+{
+        width: 23%;
+        height: 167px;
+        margin:0 15px 15px 15px;
+}
+.essaiactivite
+{
+        width: 85%;
+        margin-bottom: 15px;
+        margin: auto;
+}
+
+}
+
+@media screen and (min-width:100px) and (max-width: 768px)
+
+
+{ 
+ body
+{
+                width: 100%;
+                margin: auto;
+}     
+
+#bloc_page
+{
+    width: 100%;
+    margin: auto;
+}
+
+/*header*/
+header
+{
+        width:100%;
+        margin: auto;
+        display: flex;
+        flex-wrap: wrap;
+}
+
+.navigation
+{
+        width: 100%;  
+        order: 3;  
+}
+
+  header ul 
+{
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        padding: 0%;
+}
+
+ header li
+{
+         width:50%;
+         color:black;
+}
+        
+.log
+{
+        width: 30%;
+}
+
+.inscript
+{
+         width: 70%;
+         order: 2;
+         text-align: right;
+         font-family:'raleway','Times New Roman',serif, Helvetica, sans-serif;
+         font-size: x-large;
+         font-weight:700;
+         color:#0065FC;
+}
+.inscription
+{
+        color:#0065FC;
+}
+
+
+header a:hover
+{
+        color:#0065FC;
+         border-top:none;           
+}
+.nav
+{
+       padding-bottom: 15px; 
+       border-bottom: 2px solid #F2F2F2;
+       font-family:'raleway','Times New Roman',serif, Helvetica, sans-serif;
+       color: black;
+       font-size: medium;
+}
+
+.nav:hover
+{
+        border-bottom: #0065FC solid 2px;
+}
+.trouver
+{
+        width: 100%;
+        padding: 5px;
+        margin: 0;
+        text-align: center;
+}
+section h1
+{
+        width:100%;
+        font-family:'raleway','Times New Roman',serif, Helvetica, sans-serif;
+        text-align: left;
+       color: black;
+       font-size: 1.5rem;   
+}
+section p
+{
+        font-family:'raleway','Times New Roman',serif, Helvetica, sans-serif;
+        height: auto;
+        text-align: left;
+       color: black;
+       font-size: 0.9rem;   
+}
+.information 
+{
+        width: 2%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding: 2px;
+        margin-right:10px;
+        color:#0065FC;
+}
+/*recherche*/
+.recherche
+
+{
+        width: 100%;
+        margin: 0;
+}
+.recherchevilles
+{
+        width: 100%;
+        margin: auto;
+}
+.search
+{
+        display:none;
+}
+.searchmobile
+{
+        width: 10%;
+        height: 30px;
+        display:flex;
+        justify-content: center;
+        align-items: center;
+        color: white;
+        background-color: #0065FC;
+        
+        border-radius: 0 10px 10px 0;
+}
+.ville
+{
+        width: 90%;
+}
+ .filters
+{
+        width:90%;
+         display: flex; 
+         flex-wrap: wrap;
+         margin-bottom: 10px;
+}
+.s1
+{
+      width: 100%;  
+}
+.boutonfiltre
+{
+        margin: 0 40px 10px 0;
+        font-size: 1.1em;
+        font-weight: 700;
+}
+.s1
+{
+        margin: 0 40px 10px 0;
+}
+
+/*aside*/
+
+.lespluspop 
+{
+         width: 100%;
+         height: auto;
+         margin: auto;
+         padding:0;
+         margin:0 0 20px 0;
+         order:1;
+}
+.imagepop
+{
+         height:130px;
+}
+
+.photoplus
+{
+         width:90%;
+         height: 130px;
+         margin: auto;
+         margin-bottom: 20px;
+         padding:5px 0 5px 5px; 
+}
+.photoplus:hover
+{
+         width:91%;
+         color:white;
+         background-color:  rgb(4, 4, 82);
+}
+.textpop
+{
+        width: 50%;
+        min-width: 200px;
+        padding: 5px 0 0 5px;
+        margin-left: 20px;
+}
+.titrepop
+{
+        min-width:150px;
+      
+}
+.titrelesplus
+{
+        width:90%;
+        margin: auto;
+}
+.sectionhebergement  
+
+{        
+        width: 100%;
+        height:auto;
+        padding:0;
+        margin: 0;
+        display:flex;   
+        flex-direction: column;
+}
+.blocks
+{
+        width:100%;
+        height:1245px;
+        padding:0;
+        margin: 0;
+        order: 2;
+        padding-bottom: 10px;
+}
+.bloc2
+{
+        width:100%;
+        height: auto;
+        padding:0;
+}
+.bloc1
+{
+        width:90%;
+        margin:auto;
+}
+
+.fig
+{
+        width: 100%;
+        height:100px;
+}
+
+.lieu
+{
+        width: 90%;
+        height: 167px;
+        margin:auto;
+        margin-bottom: 20px;
+}
+.lieu:hover
+{
+        width: 92%;
+        background-color: rgb(4, 4, 82)
+}
+
+/*activités*/
+.essaiactivite
+{
+        width: 100%;
+        height: 1340px;
+}
+
+.ensemblephoto
+{
+        display:flex;
+        flex-wrap: wrap;
+}
+.bloc1b
+{
+        width: 90%;
+        height: 164px;
+        margin:auto;
+        margin-bottom: 50px;
+}
+.bloc3b
+{ 
+        width: 90%;
+        height: 164px;
+        margin:auto;
+        margin-bottom: 50px;
+}
+.vieuxport
+{
+        width: 100%;
+        height: 100%;
+        margin: 0%;
+}
+.bloc2b
+{
+        width: 100%;
+}
+.blocintermediaire1
+{
+        width: 90%;
+        height: 164px;
+        margin:auto;
+        margin-bottom: 50px;
+}
+.photopaysage1
+{
+        width:100%;
+        height:100%;
+}
+.photopaysage
+{
+        height: 100%;
+}
+.photopaysage3
+{
+        height: 100%;
+}
+.titreimportant
+{
+        width:90%;
+        font-size: 1.5em;
+        margin-bottom: 20px;
+        padding:0;
+      
+}
+.titreactivités
+{
+        width: 90%;
+        margin:auto;
+}
+footer h4
+{
+        width: 100%;
+}
+.photopaysage2
+{
+        width:100%;
+        height:100%;
+}
+.blocintermediaire2
+{
+        width: 90%;
+        height: 164px;
+        margin:auto;
+        margin-bottom: 50px;
+}
+.iledufrioul
+{
+        height: 100%;
+}
+.blocintermediaire5
+{
+        width: 90%;
+        height: 164px;
+        margin:auto;
+        margin-bottom: 50px;
+}
+.blocintermediaire6
+{
+width: 90%;
+height: 164px;
+margin:auto;
+margin-bottom: 50px;
+}
+
+
+/* footer */
+footer 
+{
+        width:100%;
+        display:flex;
+        flex-direction: column;
+        background-color: #DEEBFF;
+}
+.noshebergements
+{
+        width:100%;
+        padding-left: 20px;
+}
+.assistance
+{
+        width: 100%;
+        padding-left: 20px;
+}
+}
