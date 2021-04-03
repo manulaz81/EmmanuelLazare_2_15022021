@@ -453,6 +453,7 @@ section div p
 aside h4
 {
         margin-bottom: 15px;
+        max-width: 91px;
 }
 
  /*section activités à marseille*/
@@ -850,7 +851,7 @@ section p
 .textpop
 {
         width: 50%;
-        min-width: 200px;
+        min-width: 100px;
         padding: 5px 0 0 5px;
         margin-left: 20px;
 }
@@ -996,7 +997,6 @@ header a:hover
 .trouver
 {
         width: 100%;
-        padding: 5px;
         margin: 0;
         text-align: center;
 }
@@ -1119,7 +1119,7 @@ section p
 }
 .titrepop
 {
-        min-width:150px;
+        min-width:10px;
       
 }
 .titrelesplus
