@@ -6,15 +6,13 @@ src: url('https://fonts.googleapis.com/css2?family=Raleway:wght@400;600;800&disp
 body
 {
         width:100%;
-        border: solid 1px red;
 }
 #bloc_page
 {
        width: 80%; 
        max-width: 1500px;
        margin: auto;
-      font-family:'raleway','Times New Roman',serif, Helvetica, sans-serif;   
-      border: solid 1px red;
+      font-family:'raleway','Times New Roman',serif, Helvetica, sans-serif; 
 }
 
 /* EN TETE */
@@ -68,6 +66,7 @@ section h5
 .inscript
 {
         font-weight: 700;
+        font-size: 1.3em;
         color:#0065FC;
       vertical-align: middle;
 }
@@ -82,17 +81,18 @@ header ul
 
 header a 
 {
-        width: 10%;   
+        width: 10%;  
         text-decoration: none;
         margin: 15px;       
-        padding-top: 15px 
+        padding-top: 15px;
+        color: #0065FC;
 }
 header nav a
 {
         font-family:'raleway';
-        font-weight: 500;
-        color: black;
-        border:solid 1px red;
+        font-size: 1.3em;
+        font-weight: 400;
+        color: black;     
 }
 header li
 {
@@ -194,7 +194,6 @@ section
         display:none;
 }
 
-
 h3
 {
         font-family:'raleway','Times New Roman',serif, Helvetica, sans-serif;     
@@ -206,7 +205,7 @@ h4
 {
         font-family:'raleway','Times New Roman',serif, Helvetica, sans-serif;     
         font-size: 0.6em;  
-        font-weight: 200;
+        font-weight: 400;
         padding: 3px;
         margin: 0;
 }
@@ -214,7 +213,7 @@ h4
 /*div filtres*/
 .filters   
 {
-         width: 60%;
+         width: 90%;
          min-width: 200px;
          max-width: 1500px;
          display: flex;
@@ -235,6 +234,7 @@ h4
 
 .boutonfiltre
 {
+        min-width: 170;
         border-radius: 20px;
         margin:0 15px 0 0;
         display: flex;
@@ -278,8 +278,8 @@ h4
 body div section p
 {
         font-family:'raleway','Times New Roman',serif, Helvetica, sans-serif;     
-        font-size: 0.8em;  
-        font-weight: 500;
+        font-size: 1.1em;  
+        font-weight: 300;
         margin: 0 0 15px 0;
         padding:0%;
         
@@ -295,7 +295,6 @@ body div section p
         display: flex;
         justify-content: center;
         margin-bottom: 50px;
-        border: red  solid 1px;
 }
 
 .blocks
@@ -308,7 +307,6 @@ body div section p
         background-color: #F2F2F2;  
         padding: 0;
         margin-right: 5%;
-        border: red  solid 1px;
 }
 .bloc2
 {
@@ -317,7 +315,6 @@ body div section p
        padding: 15px;
         display: flex;
         flex-wrap: wrap;  
-          border: red  solid 1px;
 }
 
 .fig
@@ -366,6 +363,7 @@ section div p
 }
 .titrehebergement
 {
+        width:100%;
        font-weight: 700; 
        margin: 0;
 }
@@ -377,7 +375,6 @@ section div p
         width: 30%;      
         border-radius: 2%;
         padding: 0 5px 0 5px;  
-        border: 1px solid red;
 }
 
 .titrelesplus
@@ -387,9 +384,7 @@ section div p
         display: flex;
         justify-content: flex-start;
         align-items: center;
-        border: 1px solid red;
-
-}
+ }
 .hebergement div h3
 {
         display: flex;
@@ -397,8 +392,7 @@ section div p
 }
 .titrepop
 {
-        min-width:110px;
-        max-width:120px;
+        width:60%;
 }
 
 .titleplus
@@ -409,6 +403,7 @@ section div p
 .photoplus
 {
         width: 88%;
+        min-width: 236px;
         height: 90px;
        padding: 3px 3px 3px 3px;
         border-radius: 5px ;
@@ -416,7 +411,6 @@ section div p
         background-color: white;        
         margin :auto;
         margin-bottom: 5%;
-        border: 1px solid red;
 }
 
 .photoplus:hover
@@ -440,14 +434,15 @@ section div p
 }
 .chart
 {
-        width: 10%;     
+        width: 20%;     
         text-align: center;
 }
 
 .textpop
 {
-        width: 60%;
-        min-width: 200px;
+        width: 96%;
+        min-width: 112px;
+        margin:0;
         padding: 5px 0 0 5px;
 }
 aside h4
@@ -462,7 +457,6 @@ aside h4
          width: 100%;  
          height: 320px;
          padding: 0%;
-         border: 1px solid red;
 }
  
  .ensemblephoto
@@ -470,7 +464,6 @@ aside h4
          width:100%;
          display: flex;
          justify-content: space-between;
-         border: 1px solid red;
 }
  
  .blocintermediaire1
@@ -515,7 +508,6 @@ aside h4
         border-radius: 20px;
         margin:0 20px 0 0;   
         padding: 0 0 0 0;  
-        border: 1px solid red;
 }
  
  .bloc2b
@@ -526,7 +518,6 @@ aside h4
          margin:0 0 0 0;
          display: flex;
          flex-wrap: wrap;
-         border: 1px solid red;
 }
   
  .bloc3b
@@ -535,7 +526,6 @@ aside h4
         height: 100%;
         border-radius: 20px;
         margin:0 15px 0 15px;
-        border: 1px solid red;
 }
 .bloc4b
 {        width: 20%;
@@ -647,7 +637,7 @@ footer
 
 footer div a
 {
-        width:230px ;
+        width:180px ;
         display: flex;
         flex-direction: column;
         text-decoration:none;
@@ -670,7 +660,7 @@ footer h4
 /*media queries*/
 
 
-@media screen and (min-width: 769px) and (max-width: 1023px)
+@media screen and (min-width: 768px) and (max-width: 1024px)
 
 { 
 body 
@@ -844,14 +834,13 @@ section p
 }
 .titrepop
 {
-        width: 100%;
+        width:60%;
         max-width: 400px;
 }
 
 .textpop
 {
-        width: 50%;
-        min-width: 100px;
+        width: 97%;
         padding: 5px 0 0 5px;
         margin-left: 20px;
 }
@@ -910,7 +899,7 @@ section p
 
 }
 
-@media screen and (min-width:100px) and (max-width: 768px)
+@media screen and (max-width: 767px)
 { 
  body
 {
@@ -920,7 +909,7 @@ section p
 
 #bloc_page
 {
-    width: 100%;
+    width: 95%;
     margin: auto;
 }
 
@@ -1004,7 +993,7 @@ section h1
         font-family:'raleway','Times New Roman',serif, Helvetica, sans-serif;
         text-align: left;
        color: black;
-       font-size: 1.5rem;   
+       font-size: 1.3rem;   
 }
 section p
 {
@@ -1069,7 +1058,7 @@ section p
 }
 .boutonfiltre
 {
-        margin: 0 40px 10px 0;
+        margin: 0 17px 10px 0;
         font-size: 1.1em;
         font-weight: 700;
 }
@@ -1077,7 +1066,17 @@ section p
 {
         margin: 0 40px 10px 0;
 }
-
+body div section p
+{
+        font-family:'raleway','Times New Roman',serif, Helvetica, sans-serif;     
+        font-size: 0.8em;  
+        font-weight: 500;
+        margin: 0 0 15px 0;
+        padding:0%;
+        
+        display: flex;
+        align-items: center;
+}
 /*aside*/
 
 .lespluspop 
@@ -1089,6 +1088,12 @@ section p
          margin:0 0 20px 0;
          order:1;
 }
+aside h4
+{
+        margin-bottom: 51px;
+        max-width: 91px;
+}
+
 .imagepop
 {
          height:130px;
@@ -1111,7 +1116,6 @@ section p
 .textpop
 {
         width: 50%;
-        min-width: 200px;
         padding: 5px 0 0 5px;
         margin-left: 20px;
 }
@@ -1233,8 +1237,8 @@ section p
 }
 .titreimportant
 {
-        width:90%;
-        font-size: 1.5em;
+        width:100%;
+        font-size: 1.3em;
         margin-bottom: 20px;
         padding:0;
       
@@ -1276,7 +1280,7 @@ footer h4
 width: 90%;
 height: 164px;
 margin:auto;
-margin-bottom: 50px;
+margin-bottom: 38px;
 }
 
 
@@ -1288,14 +1292,32 @@ footer
         flex-direction: column;
         background-color: #DEEBFF;
 }
+.apropos
+{
+        width:80%;
+      
+}
 .noshebergements
 {
-        width:100%;
+        width:80%;
         padding-left: 20px;
 }
 .assistance
 {
-        width: 100%;
+        width: 80%;
         padding-left: 20px;
 }
 }
+@media screen and (min-width: 1025px) and (max-width: 1600px)
+{
+       body 
+       {
+               width:100%;
+       }
+
+        #bloc_page
+        { 
+        width: 80%;        
+        }
+}
+
