@@ -23,20 +23,18 @@ header
         max-width: 1500px;
         display: flex;
         align-items: center;
-        font-family:'raleway','Times New Roman',serif, Helvetica, sans-serif;
         font-size: small;     
         font-weight: 600;   
 }
 section h1
 {
-        font-family:'raleway','Times New Roman',serif, Helvetica, sans-serif;
         font-weight: 800;
         font-size:large;
 }
 
 section h5
 {
-        font-family: 'raleway', 'Times New Roman',serif, Helvetica, sans-serif;
+      
         font-weight: 150;
         margin:0 0 3px 0 ;
 }
@@ -51,7 +49,6 @@ section h5
 .navigation
 {
         width: 70%; 
-        font-family:'raleway','Times New Roman',serif, Helvetica, sans-serif; 
         display: flex;
         justify-content: flex-end;
         align-items: center;
@@ -113,8 +110,7 @@ section
 }
 
 .titreimportant
-{
-        font-family:'raleway','Times New Roman',serif, Helvetica, sans-serif;     
+{    
         font-size: 0.9em;  
         font-weight: 800;
         padding-left: 15px;
@@ -168,7 +164,6 @@ section
         padding-left: 30px;
         padding:0;
         border:1px solid #F2F2F2;       
-        font-family: 'raleway';
         font-size: 0.9em; 
         font-weight: 600;
 }
@@ -186,7 +181,6 @@ section
         display: flex;
         align-items: center;
         justify-content: center;
-        font-family: 'raleway';
         font-size: 0.9em;
 }
 .searchmobile
@@ -196,14 +190,12 @@ section
 
 h3
 {
-        font-family:'raleway','Times New Roman',serif, Helvetica, sans-serif;     
         font-size: 0.8em;  
         padding: 3px;
 }
 
 h4
 {
-        font-family:'raleway','Times New Roman',serif, Helvetica, sans-serif;     
         font-size: 0.6em;  
         font-weight: 400;
         padding: 3px;
@@ -223,7 +215,6 @@ h4
          margin-bottom: 20px;
          font-weight:700;
          font-size: 0.9em;
-         font-family:'raleway' ;
  }
 
 .s1
@@ -277,7 +268,6 @@ h4
 }
 body div section p
 {
-        font-family:'raleway','Times New Roman',serif, Helvetica, sans-serif;     
         font-size: 1.1em;  
         font-weight: 300;
         margin: 0 0 15px 0;
@@ -294,7 +284,7 @@ body div section p
         height: 420px;  
         display: flex;
         justify-content: center;
-        margin-bottom: 50px;
+        margin-bottom: 10px;
 }
 
 .blocks
@@ -310,23 +300,34 @@ body div section p
 }
 .bloc2
 {
-        width:100%;
+        width:97%;
        height: 320px;
        padding: 15px;
         display: flex;
         flex-wrap: wrap;  
+        justify-content: space-between;
 }
 
 .fig
 {
         width: 100%;
-        min-width: 150px;
+        min-width: 134px;
         height: 80px;
         border-radius: 10px 10px 0 0;
         text-align: center;             
         object-fit: cover;
 }
-
+.figure 
+{
+        width: 100%;
+        margin:0;
+}
+section div a
+{
+        text-decoration: none;
+        color: black;
+        
+}
 section div p
 {
         margin: -1% 0 -1% 1%;
@@ -394,7 +395,12 @@ section div p
 {
         width:60%;
 }
-
+section aside a
+{
+        text-decoration: none;
+        color: black;
+        
+}
 .titleplus
 {
         width: 80%;
@@ -403,7 +409,7 @@ section div p
 .photoplus
 {
         width: 88%;
-        min-width: 236px;
+        min-width: 220px;
         height: 90px;
        padding: 3px 3px 3px 3px;
         border-radius: 5px ;
@@ -445,6 +451,7 @@ section div p
         margin:0;
         padding: 5px 0 0 5px;
 }
+
 aside h4
 {
         margin-bottom: 15px;
@@ -455,8 +462,8 @@ aside h4
  .essaiactivite
 {
          width: 100%;  
-         height: 320px;
-         padding: 0%;
+         height: 378px;
+         padding: 0%; 
 }
  
  .ensemblephoto
@@ -501,7 +508,7 @@ aside h4
          flex-direction: column;
          margin:0 0 5px 0;
 }
- .bloc1b
+ .figureactivité
 {
         width: 20%;
         height: 100%;
@@ -509,10 +516,19 @@ aside h4
         margin:0 20px 0 0;   
         padding: 0 0 0 0;  
 }
- 
+ .bloc1b
+ {
+         width:23%;
+         margin:0%;
+ }
+ .blocport
+ {
+       width: 100%;  
+       margin: auto;
+ }
  .bloc2b
 {
-         width: 20%;
+         width: 23%;
          height: 100%;
          border-radius: 20px;
          margin:0 0 0 0;
@@ -527,6 +543,8 @@ aside h4
         border-radius: 20px;
         margin:0 15px 0 15px;
 }
+
+
 .bloc4b
 {        width: 20%;
         height: 100%;
@@ -538,7 +556,7 @@ aside h4
  .vieuxport
 {
          width: 100%;  
-         height: 230px;
+         height: 275px;
          border-radius: 20px 20px 0 0; 
          object-fit: cover; 
          margin:0 0 0 0;
@@ -548,8 +566,7 @@ aside h4
 {
         height: 15px;
           padding:5px 0 5px 5px;
-          background-color:white;
-          font-family:'raleway','Times New Roman',serif, Helvetica, sans-serif;     
+          background-color:white;  
           font-size: 0.6em;  
           font-weight: 700;
           padding: 10px 0px 7px 5px;
@@ -563,7 +580,7 @@ aside h4
 .iledufrioul
 {
           width: 100%;
-          height: 59px;   
+          height: 90px;   
          border-radius: 10px 10px 0 0;
           object-fit: cover;
           margin:0%;    
@@ -573,21 +590,21 @@ aside h4
 .photopaysage
 {
                  width:100%;
-                 height: 123px;
+                 height: 137px;
                  border-radius: 10px 10px 0 0;
                  object-fit: cover;    
 }
 .photopaysage2
 {
                  width:100%;
-                 height: 84px;
+                 height: 104px;
                  border-radius: 10px 10px 0 0;
                  object-fit: cover;         
 }
 .photopaysage3
 {
         width:100%;
-        height: 75px;
+        height: 100px;
         border-radius: 10px 10px 0 0;
         object-fit: cover;      
 }
@@ -607,7 +624,14 @@ aside h4
         margin:0px 0 10px 0;
         object-fit: cover; 
 }       
-
+.activity
+{ 
+        width: 20%;
+        height: 230px;
+        height: 100%;
+        border-radius: 20px;
+        margin:0 15px 0 15px;
+}
 /* footer*/
 footer
 {
@@ -642,7 +666,6 @@ footer div a
         flex-direction: column;
         text-decoration:none;
         color: black;
-        font-family:'raleway','Times New Roman',serif, Helvetica, sans-serif;
         font-size: small;
         font-weight: normal;
         margin-bottom: 10px;
@@ -652,7 +675,6 @@ footer h4
 {
         margin: 10px 0 15px 0;
         padding:0;
-        font-family:'raleway','Times New Roman',serif, Helvetica, sans-serif;
         font-weight: 700;
         font-size: 0.8em;
 }
@@ -715,7 +737,6 @@ header
          width: 70%;
          order: 2;
          text-align: right;
-         font-family:'raleway','Times New Roman',serif, Helvetica, sans-serif;
          font-size: x-large;
          font-weight:700;
          color:#0065FC;
@@ -735,7 +756,6 @@ header a:hover
 {
        padding-bottom: 15px; 
        border-bottom: 2px solid #F2F2F2;
-       font-family:'raleway','Times New Roman',serif, Helvetica, sans-serif;
        color: black;
        font-size: medium;
 }
@@ -754,14 +774,12 @@ header a:hover
 section h1
 {
         width:100%;
-        font-family:'raleway','Times New Roman',serif, Helvetica, sans-serif;
         text-align: left;
        color: black;
        font-size: 1.5rem;   
 }
 section p
 {
-        font-family:'raleway','Times New Roman',serif, Helvetica, sans-serif;
         height: auto;
         text-align: left;
        color: black;
@@ -794,8 +812,6 @@ section p
         margin: 0 40px 10px 0;
 }
 
-
-
 /*aside*/
 
 .lespluspop 
@@ -807,15 +823,14 @@ section p
          padding:0;
          order:1;
 }
-.imagepop
-{
-         height:130px;
-}
+
+
 .titrepop
 {
         min-width:150px;
       
 }
+
 .photoplus
 {
          width:90%;
@@ -861,6 +876,7 @@ section p
         height:430px;
         padding:0;
         margin: auto;
+        margin-top: 10px;
         order: 2;
         padding-bottom: 10px;
 }
@@ -886,7 +902,7 @@ section p
 
 .lieu
 {
-        width: 23%;
+        width: 27%;
         height: 167px;
         margin:0 15px 15px 15px;
 }
@@ -952,7 +968,6 @@ header
          width: 70%;
          order: 2;
          text-align: right;
-         font-family:'raleway','Times New Roman',serif, Helvetica, sans-serif;
          font-size: x-large;
          font-weight:700;
          color:#0065FC;
@@ -972,7 +987,6 @@ header a:hover
 {
        padding-bottom: 15px; 
        border-bottom: 2px solid #F2F2F2;
-       font-family:'raleway','Times New Roman',serif, Helvetica, sans-serif;
        color: black;
        font-size: medium;
 }
@@ -990,14 +1004,12 @@ header a:hover
 section h1
 {
         width:100%;
-        font-family:'raleway','Times New Roman',serif, Helvetica, sans-serif;
         text-align: left;
        color: black;
        font-size: 1.3rem;   
 }
 section p
 {
-        font-family:'raleway','Times New Roman',serif, Helvetica, sans-serif;
         height: auto;
         text-align: left;
        color: black;
@@ -1043,7 +1055,7 @@ section p
 }
 .ville
 {
-        width: 90%;
+        width: 300px;
 }
  .filters
 {
@@ -1067,8 +1079,7 @@ section p
         margin: 0 40px 10px 0;
 }
 body div section p
-{
-        font-family:'raleway','Times New Roman',serif, Helvetica, sans-serif;     
+{   
         font-size: 0.8em;  
         font-weight: 500;
         margin: 0 0 15px 0;
@@ -1078,6 +1089,13 @@ body div section p
         align-items: center;
 }
 /*aside*/
+.afficher
+{
+        width: 90%;
+        margin:auto;
+        padding-left:15px;
+        font-size: 1.1em;
+}
 
 .lespluspop 
 {
@@ -1102,6 +1120,7 @@ aside h4
 .photoplus
 {
          width:90%;
+         min-width: 140px;
          height: 130px;
          margin: auto;
          margin-bottom: 20px;
@@ -1142,7 +1161,7 @@ aside h4
 .blocks
 {
         width:100%;
-        height:1245px;
+        height:1267px;
         padding:0;
         margin: 0;
         order: 2;
@@ -1154,9 +1173,9 @@ aside h4
         height: auto;
         padding:0;
 }
-.hebergements
+#hebergements
 {
-        width:90%;
+        width:93%;
         margin:auto;
 }
 
@@ -1183,7 +1202,7 @@ aside h4
 .essaiactivite
 {
         width: 100%;
-        height: 1340px;
+        height: 987px;
 }
 
 .ensemblephoto
@@ -1193,10 +1212,9 @@ aside h4
 }
 .bloc1b
 {
-        width: 90%;
-        height: 164px;
+        width: 100%;
+        height: 143px;
         margin:auto;
-        margin-bottom: 50px;
 }
 .bloc3b
 { 
@@ -1208,8 +1226,17 @@ aside h4
 .vieuxport
 {
         width: 100%;
-        height: 100%;
+        height: 100px;
         margin: 0%;
+}
+.activitys
+{
+        width: 100%;
+}
+.blocport
+{
+      width: 90%;  
+      margin: auto;
 }
 .bloc2b
 {
@@ -1218,7 +1245,7 @@ aside h4
 .blocintermediaire1
 {
         width: 90%;
-        height: 164px;
+        height: 100px;
         margin:auto;
         margin-bottom: 50px;
 }
@@ -1229,21 +1256,20 @@ aside h4
 }
 .photopaysage
 {
-        height: 100%;
+        height: 100px;
 }
 .photopaysage3
 {
-        height: 100%;
+        height: 100px;
 }
 .titreimportant
 {
-        width:100%;
-        font-size: 1.3em;
+        width:86%;
+        font-size: 1.2em;
         margin-bottom: 20px;
-        padding:0;
-      
+        padding-left: 5px;
 }
-.activités
+#activités
 {
         width: 90%;
         margin:auto;
@@ -1255,34 +1281,39 @@ footer h4
 .photopaysage2
 {
         width:100%;
-        height:100%;
+        height:100px;
 }
 .blocintermediaire2
 {
         width: 90%;
-        height: 164px;
+        height: 100px;
         margin:auto;
         margin-bottom: 50px;
 }
 .iledufrioul
 {
-        height: 100%;
+        height: 100px;
 }
 .blocintermediaire5
 {
         width: 90%;
         height: 164px;
         margin:auto;
-        margin-bottom: 50px;
+}
+.notredame
+{
+        width: 100%;
 }
 .blocintermediaire6
 {
-width: 90%;
-height: 164px;
-margin:auto;
-margin-bottom: 38px;
+        width: 90%;
+        height: 164px;
+        margin:auto;
 }
-
+.parclongchamp
+{
+        width: 100%;
+}
 
 /* footer */
 footer 
@@ -1310,14 +1341,23 @@ footer
 }
 @media screen and (min-width: 1025px) and (max-width: 1600px)
 {
-       body 
-       {
-               width:100%;
-       }
+body 
+{
+               width:90%;
+               border:solid 1px black;               
+}
 
-        #bloc_page
-        { 
-        width: 80%;        
-        }
+#bloc_page
+{ 
+        width: 80%; 
+}
+section
+{
+        width:100%;
+}
+footer
+{
+        width: 100%;
+}
 }
 
