@@ -1342,7 +1342,8 @@ footer
 {
 body 
 {
-               width:90%;             
+               width:90%; 
+               margin:auto;            
 }
 
 #bloc_page
