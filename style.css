@@ -1343,12 +1343,14 @@ footer
 body 
 {
                width:90%; 
-               margin:auto;            
+               margin:auto;   
+                    
 }
 
 #bloc_page
 { 
-        width: 80%; 
+        width: 100%; 
+        
 }
 section
 {
