@@ -359,9 +359,10 @@ section div p
 
 .etoilegrise
 {
-        color: #F2F2F2;
-        font-size: 0.6em;        
-}
+        color: #f2f2f2;
+        font-size:0.6em;
+        
+} 
 .titrehebergement
 {
         width:100%;
@@ -822,7 +823,10 @@ section p
          padding:0;
          order:1;
 }
-
+.imagepop
+{
+        height: 130px;
+}
 
 .titrepop
 {
@@ -1028,8 +1032,9 @@ section p
 .recherche
 
 {
-        width: 100%;
+        width: 85%;
         margin: 0;
+        margin:auto;
 }
 .recherchevilles
 {
@@ -1350,7 +1355,6 @@ body
 #bloc_page
 { 
         width: 100%; 
-        
 }
 section
 {
