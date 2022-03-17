@@ -578,7 +578,7 @@ aside h4
 
 }
   
-.iledufrioul
+/* .iledufrioul
 {
           width: 100%;
           height: 90px;   
@@ -586,29 +586,30 @@ aside h4
           object-fit: cover;
           margin:0%;    
           padding: 0%;     
-  }
-
+  } */
+/* 
 .photopaysage
 {
                  width:100%;
                  height: 137px;
                  border-radius: 10px 10px 0 0;
                  object-fit: cover;    
-}
-.photopaysage2
+} */
+.photopaysage2, .photopaysage3, .photopaysage,  .iledufrioul
 {
-                 width:100%;
+                 width:180px;
                  height: 104px;
                  border-radius: 10px 10px 0 0;
+                 display: flex;
                  object-fit: cover;         
 }
-.photopaysage3
+/* .photopaysage3
 {
         width:100%;
         height: 100px;
         border-radius: 10px 10px 0 0;
         object-fit: cover;      
-}
+} */
 .photoparc
 {
         width:100%;
